@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row::before,
+.row::after{
+  content: " ";
+  display: table;
+}
+
+.row::after{
+  clear: both;
+}
