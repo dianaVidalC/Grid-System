@@ -46,6 +46,10 @@
   height: 420px;
 }
 
+.flotando{
+  float: right;
+}
+
 [class*= "col-"]{
   float: left;
   min-height: 7px;
